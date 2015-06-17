@@ -1,0 +1,113 @@
+/* this will be styles */
+
+
+body {
+  background-color: lightgray;
+  margin: 2%;
+}
+.content {
+  width: 800px;
+  background-color: white;
+  background-position: center;
+  margin: 0 auto;
+  background-color: white;
+}
+.coverimage {
+  background: url('../images/coworking.jpg')
+  transparent 
+  center
+  no-repeat;
+  height: 445px;
+}
+.coverimage {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  margin: 0 auto;
+  background-color: lightgrey;
+}
+
+header {
+  height: 120px;
+  background-color: black;
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-left: 20px;
+  border-bottom: 3px solid yellow;
+}
+h1 {
+  font-family: serif;
+  font-size: 30px;
+  color: yellow;
+}
+
+
+nav {
+  text-align: right;
+}
+
+nav a{
+  text-decoration: none;
+  display: inline-block;
+  height: 20px;
+  color: white;
+  font-size: 18px;
+  font-family: sans-serif;
+  margin-top: 20px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+nav a:first-child,
+nav a:nth-child(2){
+  text-transform: uppercase;
+}
+
+/* for if you need to talk to other children:
+
+nav a:nth-child(n+3){
+  color: red;
+} */
+
+h2{
+  height: 60px;
+  background-color: grey;
+  text-align: center;
+  font-style: italic;
+  font-size: 18px;
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.taste {
+  text-decoration: line-through;
+}
+.are {
+  
+}
+
+.coverimage aside {
+  box-sizing: border-box;
+  height: 400px;
+  width: 320px;
+  position: relative;
+  left: 515px;
+  top: 202px;
+  background-color: white;
+  opacity: 0.8;
+  box-shadow: 4px black;
+}
+
+h3 {
+
+}
+
+.footer {
+  background-color: black;
+  color: white;
+}

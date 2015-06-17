@@ -1,0 +1,117 @@
+/* Font colors for this document are: red #f30000; gray #dddddd; black */
+
+body {
+  background-color: lightgray;
+  margin: 2%;
+}
+
+.content {
+  width: 800px;
+  background-color: white;
+  background-position: center;
+  margin: 0px;
+  padding: 60px;
+  font-family: 'Lato', sans-serif;
+}
+img {
+  width: 790px;
+}
+header h1 a {
+  text-decoration: none; 
+  color: #f30000;
+  font-size: 54px;
+  line-height: 5%;
+}
+/* for Section Titles */
+header h2 {
+  text-decoration: none;
+  color: black;
+  font-size: 28px;
+}
+header nav a {
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 2px solid #dddddd;
+  height: 30px;
+  color: #dddddd;
+  font-size: 24px;
+  margin-right: 24px;
+  margin-bottom: 40px;
+  padding-bottom: 5px;
+}
+/* for Dates */
+article h3 {
+  color: #dddddd;
+  font-size: 36px;
+  line-height: 30%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0px;
+}
+/* for Section Titles */
+article h2 a {
+  text-decoration: none;
+  color: black;
+  font-size: 40px;
+  line-height: 5%;
+}
+article p {
+  color: black;
+  font-size: 18px;
+  line-height: 150%;
+  padding-right: 20px;
+}
+article p::first-letter {
+  float: left;
+  color: #dddddd;
+  font-size: 110px;
+  padding-top: 30px;
+  padding-right: 15px;
+  padding-bottom: 25px;
+}
+
+/* for Continues... */
+article h4 a {
+  text-decoration: none;
+  color: #f30000;
+  font-size: 18px;
+  font-weight: bold;
+  float: right;
+  padding-bottom: 5px;
+}
+/* Successful float clearing below!! */
+
+.clearfix:before, .clearfix:after { 
+  content: ""; 
+  display: table; 
+}
+
+.clearfix:after { clear: both; }
+
+.clearfix { zoom: 1; }
+
+.line-separator {
+  height: 1px;
+  background: #dddddd;
+  border-bottom: 1px solid #dddddd;
+  margin-bottom: 30px;
+}
+footer {
+  padding-top: 30px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #f30000;
+  font-size: 18px;
+}
+footer span {
+  color: #dddddd;
+  font-size: 20px;
+}
+footer p {
+  color: #dddddd;
+  font-size: 18px;
+}
+
+
