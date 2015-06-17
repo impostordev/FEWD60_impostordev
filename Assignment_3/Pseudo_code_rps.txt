@@ -1,0 +1,30 @@
+PART 1: PSEUDO-CODE FUN
+Write pseudo-code to figure out who the winner is in a game of Rock-Paper-Scissors.  Using the ideas from out Thermostat code along create a rock paper scissors program.
+ROCK PAPER SCISSORS:
+
+1. Take in one of three choices from two players
+2. Know which is value (r,p, or s) are greater than the other
+3. Check the values given by the players
+4. See if they one is greater or they match
+5. Either tell which player one or if they match and should play again
+
+
+
+get player_A_input
+get player_B_input
+
+    input r > input s
+    input s > input p
+    input p > input r
+
+        check input values
+
+            if player_A_input > player_B_input, 
+              print "Player A Wins"
+            if player_B_input > player_A_input, 
+              print "Player B Wins"
+            if player_A_input = player_B_input, 
+              print "Play Again"
+
+
+
