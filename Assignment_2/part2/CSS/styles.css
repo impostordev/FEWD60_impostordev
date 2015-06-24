@@ -8,12 +8,15 @@ body {
   display: inline-block;
   width: 1194px;
   height: 1862px;
+  /* be cautious about assigning a height to your page or content. 
+  The content will naturally fill the height */
   background-color: white;
   background-position: center;
   padding-top: 75px;
   padding-right: 55px;
   padding-bottom: 55px;
   padding-left: 55px;
+  /* you can also writ padding: 75px 55px 55px 55px; */
   font-family: 'Lato', sans-serif;
   font-weight: 100;
 }
@@ -152,7 +155,7 @@ footer p {
   margin-top: 0px;
   margin-left: 50px;
   padding-top: 0px;
-  padding-right: 
+  padding-right: /*missing a style here */
 }
 h5 {
   font-size: 20px;
@@ -184,6 +187,7 @@ h5 {
 }
 aside {
   position: relative;
+  /*position only works if you are assigning a top and left value; */
   color: #999999;
   font-weight: 700;
   font-size: 80px;
