@@ -1,0 +1,148 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+header {
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+header nav {
+}
+
+header nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+header nav li {
+  border: 1px solid black;
+  display: inline-block;
+  width: 10%;
+  height: 50px;
+  margin: 10px;
+  list-style-type: none
+}
+
+header nav .lines {
+    height: 50px;
+    border: 1px solid black;
+    margin: 10px 10px 10px auto;
+    width: 90%;
+    padding: 15px;
+    display: none;
+}
+
+header nav .line {
+    border: 1px solid black;
+    margin-bottom: 8px;
+}
+
+main {
+  border: 1px solid red;
+  margin-bottom: 10px;
+  height: 170px;
+}
+
+.asides {
+  font-size: 0;
+}
+
+aside {
+  border: 1px solid green;
+  width: 25%;
+  height: 125px;
+  display: inline-block;
+  margin: 10px 1%;
+  overflow: hidden;
+}
+
+footer {
+  margin-top: 10px;
+  border: 1px solid blue;
+  padding: 10px 10px 0 10px;
+  font-size: 0;
+}
+
+footer section {
+  border: 1px solid blue;
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 30%;
+  margin: 0 1.5% 10px 1.5%;
+  height: 50px;
+}
+
+
+@media (max-width: 780px) {
+
+
+
+body { 
+  font-size: 30px;
+}
+
+header {
+  height: 50px;
+  width: 100%;
+}
+
+header nav ul {
+  display: none;
+}
+
+header nav li {
+  display: none;
+}
+
+header div {
+  height: 40px;
+  position: relative;
+  margin-left: 90%;
+}
+
+header span, header span:before, header span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 30%;
+  width: 35px;
+  background: blue;
+  position: absolute;
+  display: inline-block;
+  content: '';
+  margin-top: 10px;
+}
+
+header span:before {
+  top: -10px;
+  height: 30%;
+}
+
+header span:after {
+  bottom: -10px;
+  height: 30%;
+}
+
+main {
+  height: 90px;
+}
+
+aside {
+  width: 100%;
+  height: 40px;
+  display: block;
+  margin-top: 0px 1%;
+  margin-left: 0px;
+}
+
+footer section {
+  height: 40px;
+  width: 100%;
+  margin-left: 0px;
+}
+
+}
