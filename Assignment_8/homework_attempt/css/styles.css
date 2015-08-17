@@ -1,0 +1,29 @@
+html { 
+  background: url(../images/husk.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  padding-top: 50px;
+  color: black;
+  text-align: center;
+  line-height: 2em;
+}
+#do-list input {
+  display: block;
+  text-align: center;
+}
+#submit-button {
+ 
+}
+
+#done-list {
+  text-decoration: line-through;
+}
+
+#error-message {
+  color: red;
+}

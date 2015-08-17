@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Banter</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,300,700,100' rel='stylesheet' type='text/css'>
+
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <h1>Banter</h1>
+        <p>Find your banter on Twitter.</p>
+      </div> <!-- ends title div -->
+    </header>
+      <div class="container">
+        <form id="form">
+          <input type="text" id="hashtagOne" placeholder="Enter a hashtag">
+          <input type="text" id="hashtagTwo" placeholder="Enter a hashtag">
+          <input type="text" id="hashtagThree" placeholder="Enter a hashtag">
+          <!-- allow text input for location, use Google Maps API to recognize input and geolocate for Twitter -->
+          <input type="text" id="location" placeholder="Enter location">
+          <input type="submit" value="Search" id="submit-btn">
+          <input type="submit" value="Search Again" id="submit-again">
+        </form>
+      </div> <!-- ends container div -->
+      <div class="iPhone">
+        <div class="iphone_screen">
+          <img id="twitter_screen" src="images/iPhone_5s_twitter_screen.png" alt="iPhone" height="100%" width="100%"> 
+          <img id="screen_2" src="images/iPhone_5s_screen_2.png" alt="iPhone" height="100%" width="100%"> 
+        </div> <!-- ends iphone_screen div -->
+      </div> <!-- ends iPhone div -->
+  </body>
+  <footer>
+    <!-- <div> first button will tweet the website link when a domain name is set up: 
+       <a href="https://twitter.com/share" class="twitter-share-button" data-via="reach_alanna">Tweet</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> 
+    </div> ends first footer button div -->
+    <div>
+      <a href="https://twitter.com/intent/tweet?button_hashtag=findyourbanter" class="twitter-hashtag-button" data-related="reach_alanna">Tweet #findyourbanter</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    </div> <!-- ends second footer button div -->
+    <div>
+      <a href="https://twitter.com/reach_alanna" class="twitter-follow-button" data-show-count="false">Follow @reach_alanna</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    </div> <!-- ends third footer button div -->
+  </footer>
+  <script src="js/jquery-2.1.4.js"></script>
+  <script src="js/main.js"></script>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places"></script>
+</html>

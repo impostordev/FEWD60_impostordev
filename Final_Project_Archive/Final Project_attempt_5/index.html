@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Banter</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,300,700,100' rel='stylesheet' type='text/css'>
+
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <h1>Banter</h1>
+        <p>Find your banter on Twitter.</p>
+      </div>
+    </header>
+      <div class="container">
+        <form id="form">
+          <input type="text" id="hashtagOne" placeholder="Enter a hashtag">
+          <input type="text" id="hashtagTwo" placeholder="Enter a hashtag">
+          <input type="text" id="hashtagThree" placeholder="Enter a hashtag">
+            <select id="location">
+              <option value="nyc">New York City</option>
+              <option value="nyc">Nope, choose that one^</option>
+            </select>
+          <input type="submit" value="Search" id="submit-btn">
+          <input type="submit" value="Search Again" id="submit-again">
+        </form>
+      </div>
+      <div class="iPhone">
+        <div class="iphone_screen">
+          <img id="twitter_screen" src="images/iPhone_5s_twitter_screen.png" alt="iPhone" height="100%" width="100%"> 
+          <img id="screen_2" src="images/iPhone_5s_screen_2.png" alt="iPhone" height="100%" width="100%"> 
+        </div>  
+    </div>
+
+  </body>
+  <footer>
+     <!--  <p>Created by <a href="https://twitter.com/reach_alanna">@reach_alanna</a></p> -->
+     <a href="https://twitter.com/share" class="twitter-share-button" data-via="reach_alanna">Tweet</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      <a href="https://twitter.com/intent/tweet?button_hashtag=findyourbanter" class="twitter-hashtag-button" data-related="reach_alanna">Tweet #findyourbanter</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      <a href="https://twitter.com/reach_alanna" class="twitter-follow-button" data-show-count="false">Follow @reach_alanna</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </footer>
+  <script src="js/jquery-2.1.4.js"></script>
+  <script src="js/main.js"></script>
+</html>
